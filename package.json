@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/sathiyaanbu/React-redux-webpack4.git"
   },
-  "keywords": ["React", "Redux", "Webpack4"],
+  "keywords": [
+    "React",
+    "Redux",
+    "Webpack4"
+  ],
   "author": "Sathiya Anbu",
   "license": "ISC",
   "bugs": {
