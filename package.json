@@ -1,0 +1,45 @@
+{
+  "name": "react-redux-assign",
+  "version": "1.0.0",
+  "description": "React-Redux Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sathiyaanbu/React-redux-webpack4.git"
+  },
+  "keywords": ["React", "Redux", "Webpack4"],
+  "author": "Sathiya Anbu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sathiyaanbu/React-redux-webpack4/issues"
+  },
+  "homepage": "https://github.com/sathiyaanbu/React-redux-webpack4#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "json-loader": "^0.5.7",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "reactstrap": "^6.3.0",
+    "redux": "^4.0.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
+  }
+}
