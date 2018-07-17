@@ -8,22 +8,24 @@ class DataList extends Component {
   componentWillMount() {
     this.props.fetchData();
   }
-
   render() {
-    const dataItems = this.props.results.map(result => (
-      <tr key={result.results[0].id}>
-        <td>{result.results[0].id}</td>
-        <td>
-          <img
-            style={{ width: '150px', height: '100px' }}
-            src={result.results[0].image}
-          />
-        </td>
-        <td>{result.results[0].name}</td>
-        <td>{result.results[0].status}</td>
-        <td>{result.results[0].species}</td>
-      </tr>
-    ));
+    const dataItems = this.props.results.map(result =>
+      result.results.map(item => (
+        <tr key={item.id}>
+          <td>{item.id}</td>
+
+          <td>
+            <img style={{ width: '150px', height: '100px' }} src={item.image} />
+          </td>
+
+          <td>{item.name}</td>
+
+          <td>{item.status}</td>
+
+          <td>{item.species}</td>
+        </tr>
+      ))
+    );
 
     return (
       <Table bordered>

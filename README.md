@@ -1,7 +1,9 @@
 # React-Redux-Assign
-Code with error uploaded temporarily. 
+
+Fetching data from api using react,redux.
 
 # Quick Start
+
 ```
 Install dependencies
 npm install
