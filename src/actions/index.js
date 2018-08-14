@@ -1,11 +1,21 @@
-import axios from 'axios';
+export const FETCH_DATA = "FETCH_DATA";
+export const INCREMENT_PAGE = "INCREMENT_PAGE";
+export const DECREMENT_PAGE = "DECREMENT_PAGE";
 
-export const FETCH_DATA = 'FETCH_DATA';
-
-export function fetchData() {
-  const request = axios.get('https://rickandmortyapi.com/api/character');
+export function fetchData(request) {
   return {
     type: FETCH_DATA,
     payload: request
+  };
+}
+
+export function incrementPage() {
+  return {
+    type: INCREMENT_PAGE
+  };
+}
+export function decrementPage() {
+  return {
+    type: DECREMENT_PAGE
   };
 }

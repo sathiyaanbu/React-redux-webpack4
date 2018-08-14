@@ -1,6 +1,6 @@
 # React-Redux-Assign
 
-Fetching data from api using react,redux.
+Fetching data from api and pagination using react,redux.
 
 # Quick Start
 
